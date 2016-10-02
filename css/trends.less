@@ -1,0 +1,25 @@
+
+//.photo图片放大1.5倍
+@scaleX: 1.2;
+@scaleY: 1.2;
+.transform(@scaleX,@scaleY){
+	transform: scale(@scaleX,@scaleY);
+	-o-transform: scale(@scaleX,@scaleY);
+	-ms-transform: scale(@scaleX,@scaleY);
+	-moz-transform: scale(@scaleX,@scaleY);
+	-webkit-transform: scale(@scaleX,@scaleY);
+}
+
+
+//.photo运动
+@property: all;
+@duration: 1s;
+@timing: linear;
+@delay:.8s;
+.transition(@property,@duration,@timing,@delay){
+    transition:@property,@duration,@timing,@delay;
+    -o-transition: @property,@duration,@timing,@delay;
+    -ms-transition: @property,@duration,@timing,@delay;
+    -webkit-transition: @property,@duration,@timing,@delay;
+
+}

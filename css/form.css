@@ -1,0 +1,216 @@
+/* ==============================各屏幕兼容代码=============================== */
+@media screen and (min-width: 1200px) and (max-width: 1440px) {
+  body {
+    height: 1536px;
+  }
+  body #header #header-nav ul {
+    left: 50%;
+    width: 50%;
+    transform: translate(-25%);
+    -moz-transform: translate(-25%);
+    -webkit-transform: translate(-25%);
+  }
+  body #header #header-nav ul .header-li {
+    float: left;
+    list-style: none;
+    text-align: center;
+    line-height: 3em;
+  }
+  body #header #header-nav ul .header-li a,
+  body #header #header-nav ul .header-li a:hover {
+    display: inline-block;
+    width: 5.5em;
+    height: 2em;
+    border-radius: 1px;
+    text-decoration: none;
+    margin-right: 10px;
+    font-weight: bold;
+    line-height: 2em;
+  }
+  body #header #header-nav ul .header-li a {
+    background-color: #036;
+    color: #fff;
+  }
+  body #header #header-nav ul .header-li a:hover {
+    background-color: #cf6;
+    color: #036;
+  }
+}
+@media screen and (min-width: 960px) and (max-width: 1199px) {
+  body {
+    height: 1443.84px;
+  }
+  body #header #header-nav ul {
+    left: 50%;
+    width: 50%;
+    transform: translate(-32%);
+    -moz-transform: translate(-32%);
+    -webkit-transform: translate(-32%);
+  }
+  body #header #header-nav ul .header-li {
+    float: left;
+    list-style: none;
+    text-align: center;
+    line-height: 3em;
+  }
+  body #header #header-nav ul .header-li a,
+  body #header #header-nav ul .header-li a:hover {
+    display: inline-block;
+    width: 5.5em;
+    height: 2em;
+    border-radius: 1px;
+    text-decoration: none;
+    margin-right: 10px;
+    font-weight: bold;
+    line-height: 2em;
+  }
+  body #header #header-nav ul .header-li a {
+    background-color: #036;
+    color: #fff;
+  }
+  body #header #header-nav ul .header-li a:hover {
+    background-color: #cf6;
+    color: #036;
+  }
+}
+@media screen and (min-width: 768px) and (max-width: 959px) {
+  body {
+    height: 1259.52px;
+  }
+  body #header #header-nav ul {
+    left: 50%;
+    width: 60%;
+    transform: translate(-42%);
+    -moz-transform: translate(-42%);
+    -webkit-transform: translate(-42%);
+  }
+  body #header #header-nav ul .header-li {
+    float: left;
+    list-style: none;
+    text-align: center;
+    line-height: 3em;
+  }
+  body #header #header-nav ul .header-li a,
+  body #header #header-nav ul .header-li a:hover {
+    display: inline-block;
+    width: 5.5em;
+    height: 2em;
+    border-radius: 1px;
+    text-decoration: none;
+    margin-right: 10px;
+    font-weight: bold;
+    line-height: 2em;
+  }
+  body #header #header-nav ul .header-li a {
+    background-color: #036;
+    color: #fff;
+  }
+  body #header #header-nav ul .header-li a:hover {
+    background-color: #cf6;
+    color: #036;
+  }
+}
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+  body {
+    height: 998.4px;
+  }
+  body #header #header-nav ul {
+    left: 50%;
+    width: 80%;
+    transform: translate(-42%);
+    -moz-transform: translate(-42%);
+    -webkit-transform: translate(-42%);
+  }
+  body #header #header-nav ul .header-li {
+    float: left;
+    list-style: none;
+    text-align: center;
+    line-height: 3em;
+  }
+  body #header #header-nav ul .header-li a,
+  body #header #header-nav ul .header-li a:hover {
+    display: inline-block;
+    width: 5.5em;
+    height: 2em;
+    border-radius: 1px;
+    text-decoration: none;
+    margin-right: 10px;
+    font-weight: bold;
+    line-height: 2em;
+  }
+  body #header #header-nav ul .header-li a {
+    background-color: #036;
+    color: #fff;
+  }
+  body #header #header-nav ul .header-li a:hover {
+    background-color: #cf6;
+    color: #036;
+  }
+}
+@media only screen and (max-width: 479px) {
+  body {
+    height: 768px;
+  }
+  body #header #header-nav #nav-toggle {
+    position: absolute;
+    cursor: pointer;
+    padding-top: 10px;
+    height: 15px;
+    width: 35px;
+    right: 0;
+    top: 28%;
+  }
+  body #header #header-nav #nav-toggle span,
+  body #header #header-nav #nav-toggle span:before,
+  body #header #header-nav #nav-toggle span:after {
+    border-radius: 1px;
+    height: 5px;
+    width: 35px;
+    background-color: #fff;
+    position: absolute;
+    display: block;
+    content: '';
+  }
+  body #header #header-nav #nav-toggle span:before {
+    top: -10px;
+  }
+  body #header #header-nav #nav-toggle span:after {
+    bottom: -10px;
+  }
+  body #header #header-nav #nav-toggle span:hover,
+  body #header #header-nav #nav-toggle span:hover::before,
+  body #header #header-nav #nav-toggle span:hover::after {
+    background-color: #ccff66;
+  }
+  body #header #header-nav ul {
+    display: none;
+    position: absolute;
+    right: 0;
+    top: 42px;
+    z-index: 999;
+  }
+  body #header #header-nav ul .header-li {
+    list-style: none;
+    text-align: center;
+    line-height: 3em;
+    margin-top: 2px;
+  }
+  body #header #header-nav ul .header-li a,
+  body #header #header-nav ul .header-li a:hover {
+    display: block;
+    width: 5.5em;
+    height: 2em;
+    border-radius: 1px;
+    text-decoration: none;
+    font-weight: bold;
+    line-height: 2em;
+  }
+  body #header #header-nav ul .header-li a {
+    background-color: #036;
+    color: #fff;
+  }
+  body #header #header-nav ul .header-li a:hover {
+    background-color: #cf6;
+    color: #036;
+  }
+}
